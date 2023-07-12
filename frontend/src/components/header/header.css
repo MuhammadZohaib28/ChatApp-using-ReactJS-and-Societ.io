@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 15px -20px;
+    padding: 1rem 0.5rem;
+}
+
+.search{
+    display: flex;
+    /* justify-content: center; */
+    gap: 0.51rem;
+    align-items: center;
+}
+
+
+
+.icon{
+    height: 2rem;
+    cursor: pointer;
+}
+
+.profilePictureIcon{
+    border-radius: 4rem;
+    height: 3rem;
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.notificationIcon{
+    height: 2.5rem;
+}
